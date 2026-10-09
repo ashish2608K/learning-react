@@ -1,0 +1,106 @@
+.trek_detail_card {
+  position: relative;
+  width: 320px;
+  height: 440px;
+  border-radius: 28px;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease;
+}
+
+.trek_detail_card:hover {
+  transform: translateY(-6px);
+}
+
+/* background image fills the whole card */
+.trek_detail_card .card_img_wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.trek_detail_card .card_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* heart button, top-left */
+.trek_detail_card .like_button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.trek_detail_card .like_button .card_icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* white panel at the bottom */
+.trek_detail_card .content_area {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  background: #fff;
+  border-radius: 22px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.trek_detail_card .heading {
+  width: 100%;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* show max 2 lines of the description */
+.trek_detail_card .cnt_para {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* rating and difficulty pills */
+.trek_detail_card .trek_rating,
+.trek_detail_card .level_of_trek {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f3f3f3;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.trek_detail_card .card_inner_icons {
+  display: flex;
+}
+
+.trek_detail_card .card_icons {
+  width: 18px;
+  height: 18px;
+}
+
+.trek_detail_card .stats {
+  font-size: 14px;
+  color: #333;
+}
