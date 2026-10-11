@@ -28,7 +28,7 @@ function TrekCard({
                     <div className="card_inner_icons">
                         <img className="card_icons" src={CardstarImg} alt="" />
                     </div>
-                    <span className="stats">{rating}</span>
+                    <span className="stats">{rating}</span> 
                 </div>
                 <div className="level_of_trek">
                     <div className="card_inner_icons">

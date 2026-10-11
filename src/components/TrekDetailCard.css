@@ -2,6 +2,8 @@ section.trek_cards_section {
   display: flex;
   column-gap: 77px;
   justify-content: center;
+  padding-top: 120px;
+
 }
 
 .trek_detail_card {
