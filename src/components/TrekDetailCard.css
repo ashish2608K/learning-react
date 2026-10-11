@@ -1,7 +1,13 @@
+section.trek_cards_section {
+  display: flex;
+  column-gap: 77px;
+  justify-content: center;
+}
+
 .trek_detail_card {
   position: relative;
-  width: 320px;
-  height: 440px;
+  width: 344px;
+  height: 513px;
   border-radius: 28px;
   overflow: hidden;
   font-family: system-ui, sans-serif;
